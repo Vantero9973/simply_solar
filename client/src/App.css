@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@1200&display=swap');
+@import url(//db.onlinewebfonts.com/c/ad29c8d2930832a468fdda1d1c9f5444?family=OPTIBankGothic);
+@import url('https://fonts.cdnfonts.com/css/futura-md-bt');
+
+.navList {
+  width: fit-content;
+}
+
+.navList:hover {
+  background: #0e5933;
+  color: white;
+  border-radius: 10px;
+}
+
+.green-mountain-movers {
+  font-size: 24px;
+  color: #0e5933;
+  font-family: "OPTIBankGothic";
+}
+
+.for-when-you-need {
+  font-size: 16px;
+  color: #4d4d4d;
+  font-family: 'Futura Md BT', sans-serif;
+  font-weight: bold;
+}
